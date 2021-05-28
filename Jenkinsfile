@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('Build/Deply'){
+        stage('Build/Deploy'){
             steps{
                 echo 'Hello world from git!!!!'
             }
